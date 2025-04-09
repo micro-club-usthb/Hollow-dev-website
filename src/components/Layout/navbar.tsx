@@ -1,7 +1,7 @@
 import { useState } from "react";
 import HollowButton from "../UI/HollowButton";
 import RegisterButton from "/assets/RegisterIcon.svg";
-import { Link, useLocation } from "react-router-dom";
+import {  useLocation } from "react-router-dom";
 
 export default function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
